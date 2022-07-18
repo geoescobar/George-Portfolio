@@ -1,5 +1,4 @@
 import React from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 function Navbar() {
