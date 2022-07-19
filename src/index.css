@@ -18,3 +18,15 @@
   border-radius: 50%;
 }
 
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  transition: 2s ease;
+}
+
+.content-div:hover {
+  background-color: #f5d020 !important;
+  background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%) !important;
+}

@@ -1,9 +1,13 @@
 import React from "react";
 import Cabo from "../assets/cabo.jpg";
+import Skills from "./Skills";
 
 function AboutMe() {
   return (
-    <div name="about" className="about-me w-full h-screen bg-[#16161d] text-gray-300">
+    <div
+      name="about"
+      className="about-me w-full h-screen bg-[#16161d] text-gray-300"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="pb-8 pl-4">
@@ -24,9 +28,7 @@ function AboutMe() {
               cumque rerum!
             </p>
             <div>
-              <button className="text-[#16161d] border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-[#F53803] to-[#F5D020] rounded-full border-none hover:underline">
-                Projects
-              </button>
+              <Skills />
             </div>
           </div>
         </div>
