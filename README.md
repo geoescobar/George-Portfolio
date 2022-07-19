@@ -23,7 +23,7 @@ Check out my portfolio! On there you will learn more about me and check out some
 
 ## Links
 
-### [Demo](https://github.com/geoescobar/react-portfolio)
+### [Demo](https://react-portfolio-ge.web.app/)
 
 ![Img](./src/assets/mockup1.jpg)
 
