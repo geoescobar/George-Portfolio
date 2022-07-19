@@ -13,3 +13,8 @@
   height: 70px;
   width: 70px;
 }
+
+.selfie {
+  border-radius: 50%;
+}
+
