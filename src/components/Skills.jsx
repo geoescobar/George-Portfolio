@@ -2,10 +2,10 @@ import React from "react";
 
 function Skills() {
   return (
-    <div name="skills" className="w-full h-screen bg-[#16161d] text-gray-300">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="skills" className=" bg-[#16161d] text-gray-300">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
         <div>
-          <p className="py-4">Experienced in the following skillsets:</p>
+          <p className="py-4">Experience in the following (Not limited to):</p>
         </div>
 
         <div className="w-full grid grid-cols-3 gap-4 text-center py-8">

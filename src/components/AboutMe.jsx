@@ -17,15 +17,24 @@ function AboutMe() {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid  grid-cols-2 gap-12 px-4">
           <div className="text-4xl font-bold">
             <img src={Cabo} alt="Selfie" className="selfie" />
           </div>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              nulla deleniti tempora ducimus eveniet placeat enim labore minus
-              cumque rerum!
+            <p className="mb-2">
+              Recent grad from Southern Methodist University in Dallas, TX. I
+              have a passion for software development and building interactive
+              and user friendly applications.
+            </p>
+            <p className="mb-2">
+              In my free time I enjoy going out to eat and playing soccer. I
+              also love to travel with my girlfriend as well as relax with our
+              dogs.
+            </p>
+            <p className="mb-2">
+              I have a passion for software development and am always looking
+              for ways to become more effecient and to widen m skillset.
             </p>
             <div>
               <Skills />

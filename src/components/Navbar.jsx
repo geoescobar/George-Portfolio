@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (
@@ -9,11 +10,26 @@ function Navbar() {
       </div>
       <div>
         <ul className="flex">
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact Me</li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About Me
+            </Link>
+          </li>
+          <li>
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact Me
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
