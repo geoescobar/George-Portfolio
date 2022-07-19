@@ -10,22 +10,22 @@ function Navbar() {
       </div>
       <div>
         <ul className="flex">
-          <li>
+          <li className="hover:text-[#F53803]">
             <Link to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li>
+          <li className="hover:text-[#F53803]">
             <Link to="about" smooth={true} duration={500}>
               About Me
             </Link>
           </li>
-          <li>
+          <li className="hover:text-[#F53803]">
             <Link to="projects" smooth={true} duration={500}>
               Projects
             </Link>
           </li>
-          <li>
+          <li className="hover:text-[#F53803]">
             <Link to="contact" smooth={true} duration={500}>
               Contact Me
             </Link>
