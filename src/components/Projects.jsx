@@ -2,10 +2,9 @@ import React from "react";
 import ConsoleLog from "../assets/console-log.png";
 import TitanTickets from "../assets/titan-tickets.png";
 import TechBlog from "../assets/tech-blog.png";
-import FeedbackApp from "../assets/repo.png";
+import FeedbackApp from "../assets/feedback.png";
 import CodeQuiz from "../assets/code-quiz.png";
 import WeatherDash from "../assets/weather-dashboard.png";
-import { Link } from "react-scroll";
 
 function Projects() {
   return (
