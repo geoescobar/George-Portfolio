@@ -20,7 +20,7 @@ function Projects() {
           <p className="py-6">Here are some featured projects</p>
           <div>
             <a
-              href="https://github.com/geoescobar"
+              href="https://github.com/geoescobar?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
