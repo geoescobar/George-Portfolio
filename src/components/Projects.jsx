@@ -67,7 +67,7 @@ function Projects() {
                 Titan Tickets
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://geoescobar.github.io/Project1/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -145,7 +145,11 @@ function Projects() {
                 Code Quiz
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://geoescobar.github.io/Code-Quiz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -171,7 +175,11 @@ function Projects() {
                 Weather Dashboard
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://geoescobar.github.io/Weather-Dashboard/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>

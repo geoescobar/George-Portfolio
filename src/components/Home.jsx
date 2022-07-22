@@ -20,9 +20,8 @@ function Home() {
           Full Stack Developer
         </h2>
         <p className="text-gray-400 py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          quisquam fuga repudiandae eius adipisci eum unde optio magnam eaque
-          reprehenderit!
+          Passionate about building clean and efficient code, while striving to
+          continue to learn new technologies and improve current skillset!
         </p>
         <div>
           <button className="text-[#16161d] border-2 px-6 py-3 my-2 flex items-center bg-gradient-to-r from-[#F53803] to-[#F5D020] rounded-full border-none hover:underline">
