@@ -4,7 +4,7 @@ function ContactMe() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#16161d] text-gray-300 flex justify-center items-center p-4"
+      className="contact-me w-full h-screen bg-[#16161d] text-gray-300 flex justify-center items-center p-8"
     >
       <form
         method="POST"
@@ -12,7 +12,7 @@ function ContactMe() {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#F53803]">
+          <p className=" text-4xl font-bold inline border-b-4 border-[#F53803]">
             Contact
           </p>
           <p className="py-4">Send me a message!</p>

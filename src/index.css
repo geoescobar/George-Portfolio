@@ -13,11 +13,18 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #16161d;
 }
 
 .logo {
-  height: 70px;
-  width: 70px;
+  height: 70px !important;
+  width: 70px !important;
+}
+
+@media only screen and (max-width: 850px) {
+  .logo {
+    display: hidden !important;
+  }
 }
 
 .selfie {
@@ -35,4 +42,19 @@ body {
 .content-div:hover {
   background-color: #f5d020 !important;
   background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%) !important;
+}
+
+.contact-me {
+  margin-bottom: 5px !important;
+}
+
+.parallax-two {
+  background-color: azure;
+  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 100%;
+  padding: 50px 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

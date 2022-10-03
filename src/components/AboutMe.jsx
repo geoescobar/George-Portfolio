@@ -1,5 +1,5 @@
 import React from "react";
-import Cabo from "../assets/cabo.jpg";
+import Avi from "../assets/avi.jpg";
 import Skills from "./Skills";
 
 function AboutMe() {
@@ -17,15 +17,15 @@ function AboutMe() {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid  grid-cols-2 gap-12 px-4">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-12 px-4">
           <div className="text-4xl font-bold">
-            <img src={Cabo} alt="Selfie" className="selfie" />
+            <img src={Avi} alt="Selfie" className="selfie" />
           </div>
           <div>
             <p className="mb-2">
-              Recent grad from Southern Methodist University in Dallas, TX. I
-              have a passion for software development and building interactive
-              and user friendly applications.
+              I am a recent grad from Southern Methodist University in Dallas,
+              TX. I have a passion for software development and building
+              interactive and user friendly applications.
             </p>
             <p className="mb-2">
               In my free time I enjoy going out to eat and playing soccer. I
@@ -33,11 +33,12 @@ function AboutMe() {
               dogs.
             </p>
             <p className="mb-2">
-              I have a passion for software development and am always looking
-              for ways to become more effecient and to widen m skillset.
+              I have a passion for software development and I'm always looking
+              for ways to become more effecient and to elevate my skillset. I
+              enjoy working on projects that are useful in everyday life.
             </p>
             <div>
-              <Skills />
+              <Skills  />
             </div>
           </div>
         </div>

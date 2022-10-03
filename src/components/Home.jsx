@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#16161d]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-screen ">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="text-[#F53803]">
           <Typewriter
             options={{
@@ -15,8 +15,10 @@ function Home() {
             }}
           />
         </div>
-        <h1 className="text-4xl font-bold text-gray-300">George Escobar</h1>
-        <h2 className="text-4xl font-bold text-gray-400">
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
+          George Escobar
+        </h1>
+        <h2 className="text-4xl sm:text-7xl font-bold text-gray-400">
           Full Stack Developer
         </h2>
         <p className="text-gray-400 py-4 max-w-[700px]">
