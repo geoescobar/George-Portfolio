@@ -23,8 +23,7 @@ function AboutMe() {
           </div>
           <div>
             <p className="mb-2">
-              I am a recent grad from Southern Methodist University in Dallas,
-              TX. I have a passion for software development and building
+              Junior Full Stack Software Developer with a Certification from Southern Methodist University. I have a passion for software development and building
               interactive and user friendly applications.
             </p>
             <p className="mb-2">
@@ -33,9 +32,7 @@ function AboutMe() {
               dogs.
             </p>
             <p className="mb-2">
-              I have a passion for software development and I'm always looking
-              for ways to become more effecient and to elevate my skillset. I
-              enjoy working on projects that are useful in everyday life.
+             I enjoy building projects on things that can be used in everyday life. With almost a year of experience I am proud of my growth but know that there is room for improvement. 
             </p>
             <div>
               <Skills  />

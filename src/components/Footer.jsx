@@ -3,20 +3,20 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div class="text-center content-center items-center bg-[#16161d] text-white">
-        <div class="container justify-center items-center mx-auto">
-          <div class="flex justify-center content-center items-center mb-6 place-content-center ">
+      <div className="text-center content-center items-center bg-[#16161d] text-white">
+        <div className="container justify-center items-center mx-auto">
+          <div className="flex justify-center content-center items-center mb-6 place-content-center ">
             <a
               href="https://www.linkedin.com/in/george-escobar/"
               type="button"
-              class="rounded-full border-2 border-white text-white leading-normal uppercase   hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
+              className="rounded-full border-2 border-white text-white leading-normal uppercase   hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin-in"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -31,14 +31,14 @@ function Footer() {
             <a
               href="https://github.com/geoescobar"
               type="button"
-              class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
+              className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="github"
-                class="w-3 h-full mx-auto"
+                className="w-3 h-full mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
@@ -52,8 +52,8 @@ function Footer() {
           </div>
         </div>
 
-        <div class="text-center p-2 bg-[gba(0, 0, 0, 0.2)]">
-          <a class="text-whitehite" href="/">
+        <div className="text-center p-2 bg-[gba(0, 0, 0, 0.2)]">
+          <a className="text-whitehite" href="/">
             © 2022 Copyright: George Escobar
           </a>
         </div>
