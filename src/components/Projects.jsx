@@ -2,13 +2,13 @@ import React from "react";
 import Dashboard from "../assets/dashboard.png";
 import TitanTickets from "../assets/titan-tickets.png";
 import TechBlog from "../assets/tech-blog.png";
-import FeedbackApp from "../assets/feedback.png";
+import Calculator from "../assets/calculator.png";
 import Moolah from "../assets/mockup.png";
-import WeatherDash from "../assets/weather-dashboard.png";
+import WorldCupToday from "../assets/world-cup-today.jpg";
 
 function Projects() {
   return (
-    <div name="projects" className="w-full text-gray-300 bg-[#16161d]">
+    <div name="projects" className="w-full mt-40 text-gray-300 bg-[#16161d]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 md:mb-8">
           <p className=" text-4xl font-bold inline border-b-4 text-gray-300 border-[#F53803]">
@@ -151,21 +151,25 @@ function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${FeedbackApp})` }}
+            style={{ backgroundImage: `url(${WorldCupToday})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 duration-500"
           >
             <div className="opacity-0 group-hover:opacity-100 duration-500">
               <span className="text-2xl text-white tracking-wider text-center">
-                Feedback App
+                World Cup Today
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://world-cup-today.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/geoescobar/Feedback-App"
+                  href="https://github.com/geoescobar/world-cup-today"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -178,16 +182,16 @@ function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WeatherDash})` }}
+            style={{ backgroundImage: `url(${Calculator})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 duration-500"
           >
             <div className="opacity-0 group-hover:opacity-100 duration-500">
               <span className="text-2xl text-white tracking-wider text-center">
-                Weather Dashboard
+                React Calculator
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://geoescobar.github.io/Weather-Dashboard/"
+                  href="https://calculator-3xpo.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -196,7 +200,7 @@ function Projects() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/geoescobar/Weather-Dashboard"
+                  href="https://github.com/geoescobar/calculator"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

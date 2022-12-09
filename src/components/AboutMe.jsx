@@ -22,20 +22,29 @@ function AboutMe() {
             <img src={Avi} alt="Selfie" className="selfie" />
           </div>
           <div>
-            <p className="mb-2">
-              Junior Full Stack Software Developer with a Certification from Southern Methodist University. I have a passion for software development and building
-              interactive and user friendly applications.
+            <p className="mb-4">
+              My name is George Escobar and I am a recent graduate of the
+              software development program at Southern Methodist University in
+              Dallas, TX. I have always been interested in technology and
+              problem-solving, which led me to pursue a career in software
+              development.
             </p>
-            <p className="mb-2">
-              In my free time I enjoy going out to eat and playing soccer. I
-              also love to travel with my girlfriend as well as relax with our
-              dogs.
+            <p className="mb-4">
+              During the bootcamp, I gained a strong foundation in software
+              development principles and technologies, including languages such
+              as HTML, CSS, and JavaScript. I also learned about software design
+              and architecture, data structures and algorithms, and web
+              development.
             </p>
-            <p className="mb-2">
-             I enjoy building projects on things that can be used in everyday life. With almost a year of experience I am proud of my growth but know that there is room for improvement. 
+            <p className="mb-4">
+              In my free time, I enjoy staying up-to-date with the latest
+              developments in the field of software development and
+              experimenting with new technologies. I am always looking for new
+              opportunities to learn and grow as a software developer. I also
+              enjoy traveling and going spending time with my dogs and family!
             </p>
             <div>
-              <Skills  />
+              <Skills />
             </div>
           </div>
         </div>
