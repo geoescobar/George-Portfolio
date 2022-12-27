@@ -8,6 +8,8 @@ function Footer() {
           <div className="flex justify-center content-center items-center mb-6 place-content-center ">
             <a
               href="https://www.linkedin.com/in/george-escobar/"
+              target="_blank"
+              rel="noopener noreferrer"
               type="button"
               className="rounded-full border-2 border-white text-white leading-normal uppercase   hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
             >
@@ -30,6 +32,8 @@ function Footer() {
 
             <a
               href="https://github.com/geoescobar"
+              target="_blank"
+              rel="noopener noreferrer"
               type="button"
               className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1 hover:text-[#F53803] hover:border-[#F53803]"
             >
